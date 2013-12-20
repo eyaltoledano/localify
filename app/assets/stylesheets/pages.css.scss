@@ -1,0 +1,85 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "style.css";
+
+body {line-height: 135%;}
+
+.smallbutton {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 13px 25px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.7);
+	-moz-box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.7);
+	box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.7);
+	background: #2980b9;
+}
+
+.button:hover {
+	color: #fff;
+	-webkit-box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.4);
+	-moz-box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.4);
+	box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.4);
+	background: #3498db;
+}
+
+.button:active {
+	color: #fff; 
+	position: relative; 
+	top: 3px;
+	background: #3498db;
+}
+
+a#verified {
+	text-align: center;
+	margin-top: -22px;
+	margin-left: 28px;
+	font-size: 125%;
+}
+
+#bizheader h2 {
+	text-align: center;
+	line-height: 150%;
+	font-size: 300%;
+}
+
+#bizheader {
+	font-size: 125%;
+}
+
+#quoting {
+	text-align: center;
+}
+
+.paragraph {
+	line-height: 120%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.paragraph a {
+	color: #009999;
+}
+
+.paragraph a:hover {
+	color: #009999;
+}
+
+span.normal {font-weight:normal;}
+span.thick {font-weight:bold;}
+span.thicker {font-weight:900;}
+
+.info a { border-bottom: 1px dotted #fff; font-size: 115%;}
+
+#footercaller { font-size: 30px;}

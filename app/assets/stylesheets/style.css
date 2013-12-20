@@ -1,0 +1,186 @@
+/*
+Theme Name: Candy
+Version: 1.0
+Author: aether_
+Author URI: http://www.aetherdesign.net
+*/
+
+@import "reset.css";
+@import "layout.css";
+@import "elements.css";
+
+/* Table of Contents
+==================================================
+    #Common Styles
+    #Header
+    #Intro
+    #Screenshots
+    #Features
+    #Call-to-action
+    #Footer
+*/
+
+
+
+/* #Common Styles
+================================================== */
+
+
+	body { font-family: 'Lato', helvetica, arial, sans-serif; color: #093331; font-weight: 300; line-height: 150%; }
+	
+	small { font-size: 0.75em; }
+	
+	a, a:visited { color: #fff; text-decoration: none; }
+	a:hover { color: #fff; text-decoration: none; }
+	a:hover, a:active { outline: 0; }
+	input:focus { outline: none; }
+	
+	
+/* #Header
+================================================== */
+
+	header {
+		width: 100%;
+		height: 583px;
+		background: #181810 url('hero.jpg') no-repeat center center;
+	}
+	
+	/* Handheld */
+	
+	#handheld { position: relative; height: 583px; }
+	#handheld img { position: absolute; bottom: 0; }
+	
+	/* Hello */	
+	
+	#hello { padding-top: 125px; }
+	
+	#hello h1, #hello .button { margin-top: 50px; }
+	
+	#hello .info {
+		float: left;
+		color: #fff;
+		font-size: 12px;
+		font-weight: 400;
+		padding-top: 15px;
+	}
+	
+	#hello .info a { border-bottom: 1px dotted #fff; }
+	#hello .info a:hover { border-bottom: none; }
+	
+	
+/* #Intro
+================================================== */
+	#signupform {text-align: center; line-height: 100%; margin-top: 25px; font-weight: 200; vertical-align: center; margin-right:auto; margin-left:auto;}
+	
+	#mc_embed_signup {background:#fff; clear:left; font:20px Helvetica,Arial,sans-serif; line-height: 220%; text-align: center; font-weight: 200; margin-bottom: -30px; margin-top: -30px;}
+
+	#mc-embedded-subscribe-form {text-align: center; padding-left: 0px;}
+	
+	#mc_embed_signup form {display: block;	position: relative;	text-align: left;	padding: 0px 0 9px 0%;	margin-left: -14px;}
+	
+	#mc_embed_signup h2 {font-weight: 200; text-align: center;}
+	
+	#formtext h2 {font-weight: 200;}
+	
+	input#mce-EMAIL.email {border-radius: 5px; width: 650px; margin-right:auto; margin-left:auto; }
+	
+	#mc_embed_signup input.email {border-color: #009999; padding: 6px 41px;	margin: 0 4% 10px 0;}
+
+	#intro { padding-top: 50px; }
+	
+	#intro p {font-size: 180%; line-height: 120%; }
+
+	#quote { text-align: right; padding-right: 15px; padding-top: 0px; }
+	
+	#quote h4 {
+		padding-left: 65px;
+		display: inline-block;
+		background: url('logo-quote.png') no-repeat top left;
+	}
+	
+	#quote .meta { color: #859796; }
+	
+	#app-icon img { margin-left: 20px; }
+	
+
+/* #Screenshots
+================================================== */
+
+	#screenshots { padding-top: 50px; }
+	
+	#description { padding-top: 25px; line-height: 150%;text-align: center; }
+	#description p { font-size: 200%; line-height: 150%; text-align: center;}
+	#description h2 { padding-bottom: 25px; line-height: 100%; font-weight: 400;}
+	#description h3 { padding-bottom: 15px; line-height: 100%; font-weight: 300;}
+	
+	
+/* #Features
+================================================== */
+	
+	.iphone-big {
+		position: absolute;
+		margin-top: 19px;
+		margin-left: 250px;
+	
+	}
+
+	.lists { padding-top: 200px; }
+	.lists ul.list { padding-bottom: 50px; }	
+	
+	.feature { padding-top: 50px; font-size: 150%; line-height: 125%;}
+	.feature h3 { padding-top: 30px; }
+	.feature p { padding-top: 15px; }
+	
+	.feature.left { text-align: right; }
+	
+	
+/* #call-to-action
+================================================== */
+
+	#call-to-action {
+		text-align: center;
+		margin-top: 240px;
+		background: url('dash.png') repeat-y center;
+		padding-top: 74px;
+		padding-bottom: 55px;
+	}
+
+	#call-to-action-two {
+		text-align: center;
+		margin-top: -31px;
+		background: url('dash.png') repeat-y center;
+		padding-top: 74px;
+		padding-bottom: 55px;
+	}
+	
+	#call-to-action .lead {
+		background: #fff;
+		padding: 5px;
+		margin-bottom: 45px;
+		font-size: 30px;
+		
+	}
+	
+	#call-to-action .lead .calling { font-size: 30px; }
+	
+	#call-to-action .button {
+		-webkit-box-shadow: inset 0px 1px 1px rgba(255,255,255,.7);
+		-moz-box-shadow: inset 0px 1px 1px rgba(255,255,255,.7);
+		box-shadow: inset 0px 1px 1px rgba(255,255,255,.7);
+	}
+	
+				
+ /* #Footer
+ ================================================== */
+ 
+ 	footer { width: 100%; background: #252525; padding-top: 50px; padding-bottom: 50px; }
+ 	
+	footer p { font-size: 13px; color: #b3c6c6; }
+ 	footer a {
+ 		color: #b3c6c6!important;
+ 		font-weight: 400!important;
+ 	}
+ 	
+ 	#copyright img { margin-left: 10px; }
+ 	
+ 	#author { text-align: right; }
