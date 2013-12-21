@@ -3,6 +3,8 @@ Localify::Application.routes.draw do
   
   get "/business" => "pages#business"
   
+  match '/vanity(/:action(/:id(.:format)))', :controller => :vanity, :via => [:get, :post]
+  
   # match "pages/index" => "home"
 
   # The priority is based upon order of creation:

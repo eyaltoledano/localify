@@ -93,6 +93,9 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    redis (3.0.6)
+    redis-namespace (1.4.1)
+      redis (~> 3.0.4)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rubyzip (1.1.0)
@@ -116,6 +119,9 @@ GEM
     uglifier (2.3.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    vanity (1.8.3)
+      redis (>= 2.1)
+      redis-namespace (>= 1.1.0)
 
 PLATFORMS
   ruby
@@ -130,3 +136,4 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
+  vanity
